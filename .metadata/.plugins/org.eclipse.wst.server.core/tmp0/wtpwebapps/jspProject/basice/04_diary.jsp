@@ -42,6 +42,7 @@ div>div>div{
 </head>
 <body>
 <h1>04_diary.jsp</h1>
+
 <div>
    <div><img src="../fff/1.png" alt=""/></div>
    <div><%=year+"年 " + month+"月" %></div>
