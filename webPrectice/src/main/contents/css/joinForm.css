@@ -1,0 +1,32 @@
+@charset "UTF-8";
+div{
+	float:left;
+	width:500px;
+	height: 50px;
+	border:1px solid #333;
+	background: #ff0;
+	
+}
+div:nth-child(7){
+	height: 150px;
+}
+.big{
+	width: 500px;
+	height: 50px;
+	border: 1px solid #333;
+	background: #0ff;
+}
+
+.big>div:first-child {
+	background: #0f0;
+	width: 50px;
+	float:left;
+}
+
+.big>div:last-child {
+	background: #0a0;
+	width: 300px;
+}
+input{
+	width: 50px;
+}

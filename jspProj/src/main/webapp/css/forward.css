@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.big{
+	width: 600px;
+	heigh:500px;
+	background: #aaa;
+	border: 1px solid #888;
+}
+.big > img{
+	width: 150px;
+	heigh:100px;
+	padding:10px;
+	display:block;
+	float:left;
+	border: 1px solid #888;
+}

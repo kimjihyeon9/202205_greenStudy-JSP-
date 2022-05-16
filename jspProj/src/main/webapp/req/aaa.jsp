@@ -1,4 +1,4 @@
-<%@page import="bas.MemberDTO"%>
+<%@page import="jdbc_p.MemberDTO"%>
 <%@import  %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>

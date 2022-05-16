@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="webPrectice">
+        <wb-resource deploy-path="/" source-path="/src/main/contents" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="webPrectice"/>
+        <property name="java-output-path" value="/webPrectice/build/classes"/>
+    </wb-module>
+</project-modules>
