@@ -89,6 +89,7 @@ application/info
 <h2>jstl</h2>
 <a href="jstl/el.jsp?pid=qaz&age=27&marriage=true&tel1234567">el</a>
 <a href="jstl/set_if.jsp?pid=qaz&age=27&marriage=true&tel1234567">set_if</a>
+<a href="jstl/memberList.jsp">memberList</a>
 <h2>foreach</h2>
 <a href="jstl/foreach.jsp">foreach</a>
 </body>

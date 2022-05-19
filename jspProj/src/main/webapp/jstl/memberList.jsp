@@ -17,16 +17,18 @@
 		<td>결혼</td>
 		<td>가입일</td>
 	</tr>
-	<c:forEach items="<%=new DBCP_DAO().list(1) %>" var="dto" varStatus="no">
+	<%-- <c:forEach items="<%=new DBCP_DAO().list(1) %>" var="dto" varStatus="no"> --%>
 	<tr>
 		<td>${no.index }</td>
 		<td>${dto.pid }</td>
-		<td>${dto.pname }</td>
+		<td>
+			<a href='<c:url value="/jstl/memberDtail.jsp?pid=${dto.pid }"/>'>
+		${dto.pname }</a></td>
 		<td>${dto.age }</td>
 		<td>${dto.marriage }</td>
 		<td>${dto.reg_date }</td>
 	</tr>
-	</c:forEach>
+	<%-- </c:forEach> --%>
 </table>
 </body>
 </html>
